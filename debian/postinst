@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+db_get foo/like_debian
+if [ "$RET" = "false" ]; then
+    echo "I like debian."
+fi

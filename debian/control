@@ -1,0 +1,15 @@
+Source: foo
+Section: utils
+Priority: optional
+Maintainer: caozuohua <caozuohua@unknown>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://www.czh.com
+#Vcs-Git: git://anonscm.debian.org/collab-maint/foo.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/foo.git
+
+Package: foo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: foo bar
+ abcdefg

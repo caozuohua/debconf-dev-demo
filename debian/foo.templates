@@ -1,0 +1,19 @@
+Template: foo/like_debian
+Type: boolean
+Description: Do you like Debian?
+ We'd like to know if you like the Debian GNU/Linux system.
+Description-zh_CN.UTF-8: 你喜欢Debian吗？
+ 我们想知道你是否喜欢Debian GNU/Linux系统。
+
+Template: foo/why_debian_is_great
+Type: note
+Description: Poor misguided one. Why are you installing this package?
+ Debian is great. As you continue using Debian, we hope you will
+ discover the error in your ways.
+
+Template: shared/window-manager
+Type: select
+Choices: a, b, c
+Description: Select the default window manager.
+ Select the window manager that will be started by default when X
+ starts.
