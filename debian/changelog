@@ -1,3 +1,9 @@
+foo (1.0-1ubuntu1) unstable; urgency=medium
+
+  * Initial README.Debian
+
+ -- caozuohua <caozuohua@qq.com>  Tue, 14 Aug 2018 11:20:37 +0800
+
 foo (1.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
