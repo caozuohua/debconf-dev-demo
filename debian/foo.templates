@@ -1,3 +1,8 @@
+Template: foo/title
+Type: text
+Description: foo title
+ title for this foo demo
+
 Template: foo/like_debian
 Type: boolean
 Description: Do you like Debian?
@@ -15,10 +20,42 @@ Description-zh_CN.UTF-8: 知错能改，善莫大焉
 
 Template: shared/window-manager
 Type: select
-Choices: a, b, c
-Choices-zh_CN.UTF-8: 啊, 比, 次
+Choices: ${CHOICES}
 Description: Select the default window manager.
  Select the window manager that will be started by default when X
  starts.
 Description-zh_CN.UTF-8: 选择默认的窗口管理器。
  选择一个在X启动时的默认窗口管理器。
+
+Template: shared/multi-window-manager
+Type: multiselect
+Choices: gtk3.0, gtk2.0, newt, text, serial
+Choices-zh_CN.UTF-8: gtk3.0图形, gtk2.0图形, 彩色字符界面, 纯文本界面, 串口输出
+Description: multi Select the default window manager.
+ multi Select the window manager that will be started by default when X
+ starts.
+Description-zh_CN.UTF-8: 多选择默认的窗口管理器。
+ 多选择一个在X启动时的默认窗口管理器。
+
+Template: shared/multi-window
+Type: text
+Description: multi window title
+
+Template: foo/my_name/user-setup
+Type: text
+Description: user setup
+ setup user info
+Description-zh_CN.UTF-8: 用户设置
+ 设置用户信息
+
+Template: foo/my_name
+Type: string
+Description: your name:
+ enter your name string here
+Description-zh_CN.UTF-8: 你的名字：
+ 请输入你的名字
+
+Template: foo/my_passwd
+Type: password
+Description: your password:
+ enter your password string here
