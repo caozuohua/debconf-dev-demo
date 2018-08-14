@@ -10,10 +10,15 @@ Type: note
 Description: Poor misguided one. Why are you installing this package?
  Debian is great. As you continue using Debian, we hope you will
  discover the error in your ways.
+Description-zh_CN.UTF-8: 知错能改，善莫大焉
+ Debian是伟大的。如果你能继续使用Debian，我们希望你能迷途知返。
 
 Template: shared/window-manager
 Type: select
 Choices: a, b, c
+Choices-zh_CN.UTF-8: 啊, 比, 次
 Description: Select the default window manager.
  Select the window manager that will be started by default when X
  starts.
+Description-zh_CN.UTF-8: 选择默认的窗口管理器。
+ 选择一个在X启动时的默认窗口管理器。
