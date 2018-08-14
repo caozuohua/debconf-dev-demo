@@ -1,3 +1,4 @@
+```
 foo for Debian
 -------------
 
@@ -6,3 +7,12 @@ foo for Debian
 3. 建议安装devscripts编包工具，使用`$ debuild`命令直接生成.deb包，然后用`# dpkg -i *.deb`安装
 
  -- caozuohua <caozuohua@qq.com>  Mon, 13 Aug 2018 14:24:01 +0800
+```
+
+---------------------------------------------------------------------------------------------
+
+- PREPARE
+1. `# apt install devscripts -y`
+2. debuild
+3. dpkg -i *.deb
+
